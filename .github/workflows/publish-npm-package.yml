@@ -1,6 +1,11 @@
 name: Publish Package to npmjs
+
 on:
   workflow_call:
+    secrets:
+      NPM_TOKEN:
+        required: true
+
 jobs:
   pbulish_npm_package:
     runs-on: ubuntu-latest
