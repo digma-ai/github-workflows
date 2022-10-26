@@ -7,7 +7,7 @@ on:
         required: true
 
 jobs:
-  pbulish_npm_package:
+  publish-npm-package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
